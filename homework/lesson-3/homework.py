@@ -35,6 +35,26 @@ for counting_bis_10 in range(1,10):
     counting_bis_10=counting_bis_10+1
 
 
-multipli=int(input("Enter the  number that you want multiply"))
-for multipli in range(1,10):
-    print()
+multipli=int(input("Enter the  number that you want multiply  "))
+print("The number is  ", multipli)
+for i in range(1,11):
+    print(f"{multipli} x {i}=  ",multipli*i)
+
+for buzz_fizz in range(1,21):
+    if buzz_fizz%3==0 and buzz_fizz%5==0 :
+        print("FizzBuzz")
+    elif buzz_fizz%3==0:
+        print("Fizz")
+    elif buzz_fizz%5==0:
+        print("Buzz")
+    else:
+        print(buzz_fizz)
+
+
+leap_year=int(input("Enter a year:  "))
+if leap_year%4==0 and leap_year%100!=0:
+    print(leap_year," is a leap year")
+elif leap_year%100==0 and leap_year%400==0:
+    print(leap_year," is a leap year")
+else:
+     print(leap_year," is not a leap year")

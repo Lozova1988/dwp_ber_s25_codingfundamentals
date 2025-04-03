@@ -12,3 +12,21 @@ comm_elements=set(list_1)&set(list_2)
 print("The common elements are:  ",comm_elements)
 
 all_numbers = [111, 32, -9, -45, -17, 9, 85, -10]
+positive_numbers=list()
+for numer in all_numbers:
+    if numer>0:
+        positive_numbers.append(numer)
+print("Positive numbers are: ", positive_numbers)
+
+
+reverse_this_list = [10, 20, 30, 40, 50]
+reverse_this_list.reverse()
+print("List in reverse: ", reverse_this_list)
+
+
+
+new_scores=set(scores)
+print("New set is:  ", new_scores)
+
+tuple_country = [("Germany", "Berlin"),("Ukraine","Kyiw"), ("England", "London"),("France", "Paris"), ("Poland", "Warschaw" )]
+print("Countries and capitals: ", tuple_country)

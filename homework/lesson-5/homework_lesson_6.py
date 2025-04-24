@@ -1,4 +1,4 @@
-#Task $1
+#Task  $1
 import random
 rand_numbers=[]
 for x in range(10):

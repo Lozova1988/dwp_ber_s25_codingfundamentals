@@ -49,7 +49,7 @@ else:
 print("Result is: ", result)
 
 
-#Task 3 This was completely done by the chat GPT, I don't have enough brains :(
+#Task 3 This was completely done by the chat GPT, I don't have enough brains   :(
 
 def generate_number():
     return random.randint(1,100)

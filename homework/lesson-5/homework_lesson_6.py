@@ -17,7 +17,7 @@ import statistics
 average2=statistics.mean(rand_numbers)
 print("Result of average statistics is", average2)
 
-#Task 2
+#Task §2
 
 def add(a,b):
     return a+b
@@ -83,5 +83,6 @@ def play_game():
         print("Game over! The number was: ", secret_number)
 
 play_game()
+
 
 

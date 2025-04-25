@@ -49,7 +49,7 @@ else:
 print("Result is: ", result)
 
 
-#Task 3 This was completely done by the chat GPT, I don't have enough brains   :(
+#Task № 3 This was completely done by the chat GPT, I don't have enough brains   :(
 
 def generate_number():
     return random.randint(1,100)
@@ -71,18 +71,18 @@ def check_guess(secret,guess):
     
 def play_game():
     secret_number = generate_number()
-    tries=0
-    max_tries=5
+    tries = 0
+    max_tries = 5
     while tries<max_tries:
         guess=get_user_guess()
         tries+=1
-        if check_guess(secret_number,guess):
+        if check_guess(secret_number, guess):
             print("You are win")
             break
     else:
         print("Game over! The number was: ", secret_number)
 
-play_game()
+play_game() 
 
 
 

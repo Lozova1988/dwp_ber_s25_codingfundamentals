@@ -14,4 +14,4 @@ for item in items_list:
     print(str(counter)+". "+ item)
     counter=counter+1
 
-print("Total number of items: " + str(len(items_list)))
+print("Total number of items: " + str(len(items_list))) 

@@ -1,3 +1,4 @@
+#shopping list
 items_list = []
 while True:
     item=input("Enter items for shopping list (Tipe `done` to finish): ").strip( )
